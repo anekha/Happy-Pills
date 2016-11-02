@@ -1,0 +1,25 @@
+
+.header_one {
+	font-size: 60px;
+	padding: 20px;
+	font-family: 'Special Elite';
+	src: href="bootstrap-3.3.7-dist/css/fonts/special-elite";
+	display: flex;
+	justify-content: space-between;
+	background-color: #757575
+}
+.btn-default {
+	margin: 10px;
+}
+
+.navbar-default {
+	background-color: #bdbdbd 
+	box-shadow: inset 0px 6px 0px #000 ;
+}
+
+.navbar-nav {
+	color: green;
+	float: right;
+}
+
+
