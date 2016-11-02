@@ -3,7 +3,7 @@
 	font-size: 60px;
 	padding: 20px;
 	font-family: 'Special Elite';
-	src: href="bootstrap-3.3.7-dist/css/fonts/special-elite";
+	src: href="bootstrap-3.3.7-dist/fonts/special-elite";
 	display: flex;
 	justify-content: space-between;
 	background-color: #757575
@@ -20,6 +20,11 @@
 .navbar-nav {
 	color: green;
 	float: right;
+}
+
+img {
+	height: 100px;
+	width: 150px;
 }
 
 
