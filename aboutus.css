@@ -1,6 +1,6 @@
 body {
     background-image: url("photos/sky.jpeg");
-    background-size:100%
+    background-size: cover;
 
 }
 
