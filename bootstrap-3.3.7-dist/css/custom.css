@@ -1,9 +1,12 @@
+@font-face {
+	font-family: 'Special Elite';
+	src: url("fonts/SpecialElite.ttf");
+}
 
 .header_one {
 	font-size: 60px;
 	padding: 20px;
 	font-family: 'Special Elite';
-	src: href="bootstrap-3.3.7-dist/fonts/special-elite";
 	display: flex;
 	justify-content: space-between;
 	background-color: #757575
