@@ -5,7 +5,7 @@
 
 .header_one {
 	font-size: 60px;
-	padding: 20px;
+	padding: 10px;
 	font-family: 'Special Elite';
 	display: flex;
 	justify-content: space-between;
@@ -21,6 +21,7 @@
 	color: #cfd8dc;
 	background-color: #cfd8dc;
 	border: 1px #cfd8dc;
+	width: 100%;
 }
 
 .active {
