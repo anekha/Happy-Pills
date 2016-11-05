@@ -1,32 +1,59 @@
 @font-face {
 	font-family: 'Special Elite';
 	src: url("fonts/SpecialElite.ttf");
+	font-family: 'Pompiere-Regular';
+  	src: url("fonts/Pompiere-Regular.ttf");
 }
 
 .header_one {
-	font-size: 60px;
-	padding: 10px;
+	font-size: 100px;
 	font-family: 'Special Elite';
+	padding-top: 20px;
+	height: 250px;
+	background-color: rgba(44, 206, 190, 0.89);
+	position: fixed;
+	top: 0;
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
-	background-color: #80cbc4;
-	;   
-}
-.btn-default {
-	margin: 10px;
+	align-items: center;
 }
 
+body {
+	position: relative;
+	padding-top: 150px;
+	background-color: white;
+}
+
+.btn-default {
+	margin: 15px;
+}
+
+.navbar {
+	min-height: 10px;
+	height: 70px;
+}
+
+.container {
+	margin-right: 10px;
+}
 
 .navbar-default{ 
-	color: #cfd8dc;
-	background-color: #cfd8dc;
+	position: relative;
+	background-color: rgba(127, 170, 220, 0.5);
 	border: 1px #cfd8dc;
-	width: 100%;
-	height: 100%;
+	margin-top: 100px;
 }
 
-.active {
-	border: 1px #cfd8dc;
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  font-size: 30px;
+  font-family: 'Pompiere-Regular';
+  margin: 10px;
+
+}
+
+.navbar .navbar-default .navbar-fixed {
+	margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
@@ -34,10 +61,6 @@
 	color: green;
 	float: right;
 }
-}
-
-
-
 
 img {
 	height: 100%;
