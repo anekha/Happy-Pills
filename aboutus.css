@@ -1,7 +1,69 @@
+@font-face {
+	font-family: 'Special Elite';
+	src: url("fonts/SpecialElite.ttf");
+	font-family: 'Pompiere-Regular';
+  	src: url("fonts/Pompiere-Regular.ttf");
+}
+
  body { 
-  background: url(photos/sky.jpg) no-repeat center center fixed; 
+  background: url(photos/sky.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.btn-default {
+	margin: 15px;
+}
+
+.navbar {
+	min-height: 10px;
+	height: 65px;
+	z-index: 350px;
+}
+
+.container {
+	margin-right: 10px;
+	margin: 0 auto;
+}
+
+.navbar-default{ 
+	position: fixed;
+	background-color: rgba(44, 206, 190, 0.64);
+	border: 1px #cfd8dc;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4)
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+.nav .navbar-nav {
+	padding: 0px 30px 0px 30px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  font-size: 30px;
+  font-family: 'Pompiere-Regular';
+  margin: 10px;
+
+}
+
+
+@media (min-width: 768px) {
+.navbar-nav {
+	color: green;
+	float: right;
+}
+
+img {
+	height: 100%;
+}
+
+
