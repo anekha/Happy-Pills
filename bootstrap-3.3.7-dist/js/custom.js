@@ -10,12 +10,12 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	   $(window).bind('scroll', function() {
-	   var navHeight = $( window ).height() - 65;
+	   var navHeight = $( window ).height() > 1;
 			 if ($(window).scrollTop() > navHeight) {
-				 $('.navbar-default').addClass('fixed');
+				 $('nav').addClass('fixed');
 			 }
 			 else {
-				 $('.navbar-default').removeClass('fixed');
+				 $('nav').removeClass('fixed');
 			 }
 		});
 	});

@@ -16,7 +16,7 @@
 	align-items: center; //* In order to vertically align to the center*/
 	text-align: left;
   	padding-left: 20px; //* add some space from the text to the left */
-
+  	box-shadow: 0 1px 2px rgba(0,0,0,0.4)
   	// set animation
             -webkit-transition: all 0.1s ease;
             transition: all 0.1s ease;
@@ -33,6 +33,7 @@
 	display: flex;
 	align-items: center; 
   	padding-left: 20px;
+  	box-shadow: 0 1px 2px rgba(0,0,0,0.4)
 }
 
 body {
@@ -63,14 +64,15 @@ img {
 	position: fixed;
 	background-color: rgba(44, 206, 190, 0.64);
 	border: 1px #cfd8dc;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.4)
 }
 
 .fixed {
 	position: fixed; 
-	top: 0; 
-	height: 70px; 
-	z-index: 1;
+	top: 139px; 
+	min-height: 10px;
+	height: 65px;
+	z-index: 350px;
+	background-color: rgba(44, 206, 190, 0);
 }
 
 .nav .navbar-nav {
