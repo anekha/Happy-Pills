@@ -5,23 +5,38 @@
   	src: url("fonts/Pompiere-Regular.ttf");
 }
 
+
 .header_one {
 	font-size: 100px;
 	font-family: 'Special Elite';
-	padding-top: 20px;
-	height: 250px;
+	height: 200px;
 	background-color: rgba(44, 206, 190, 0.89);
-	position: fixed;
-	top: 0;
 	width: 100%;
 	display: flex;
-	align-items: center;
+	align-items: center; //* In order to vertically align to the center*/
+	text-align: left;
+  	padding-left: 20px; //* add some space from the text to the left */
+
+  	// set animation
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+}
+
+.header_one.sticky {
+	position: fixed;
+	z-index: 1000;
+	font-size: 100px
+	font-family: 'Special Elite';
+	height: 200px;
+	background-color: rgba(44, 206, 190, 0.89);
+	width: 100%;
+	display: flex;
+	align-items: center; 
+  	padding-left: 20px;
 }
 
 body {
 	position: relative;
-	padding-top: 150px;
-	background-color: white;
 }
 
 .btn-default {
@@ -30,7 +45,8 @@ body {
 
 .navbar {
 	min-height: 10px;
-	height: 70px;
+	height: 65px;
+	z-index: 350px;
 }
 
 .container {
@@ -38,10 +54,12 @@ body {
 }
 
 .navbar-default{ 
-	position: relative;
-	background-color: rgba(127, 170, 220, 0.5);
+	position: fixed;
+	background-color: rgba(44, 206, 190, 0.64);
 	border: 1px #cfd8dc;
-	margin-top: 100px;
+	margin-top: px;
+	margin-bottom: 0px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.4)
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -50,10 +68,6 @@ body {
   font-family: 'Pompiere-Regular';
   margin: 10px;
 
-}
-
-.navbar .navbar-default .navbar-fixed {
-	margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
