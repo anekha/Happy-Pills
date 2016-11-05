@@ -10,7 +10,7 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
 	   $(window).bind('scroll', function() {
-	   var navHeight = $( window ).height() > 1;
+	   var navHeight = $( window ).height() > 10;
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('fixed');
 			 }
