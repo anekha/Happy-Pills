@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Special Elite';
+	src: url("fonts/SpecialElite.ttf");
+	font-family: 'Pompiere-Regular';
+  	src: url("fonts/Pompiere-Regular.ttf");
+}
+
+
+body {
+	position: relative;
+}
+
+.contact-us {
+	padding-bottom: 10rem;
+}
+
+section {display: block;}
+
+form .layout {
+	zoom: 1;
+	width: calc(100% + 20px);
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+form .layout li{
+	float: left;
+	width: 100%
+	padding: 0 1rem 2rem;
+    	padding-top: 0px;
+    	padding-right: 1rem;
+    	padding-bottom: 2rem;
+    	padding-left: 1rem;;
+}
+
+li {line-height: 1;}
