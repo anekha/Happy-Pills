@@ -114,41 +114,37 @@ html {
 }
 
 .index_page1 {
-	text-align: right;
+  	padding-right: 60px;
+  	text-align: center;
 	min-height: 100%
-	height: 100%;
 	width: 100%;
   	margin: 0;
-  	box-sizing: border-box;
-  	padding-right: 60px;
+  	overflow: auto;
+  	display: inline-flex;
 }
 
-.index_page2 {
-	text-align: right;
-	min-height: 100%
-	height: 100%;
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.content_one {
+	padding-right: 0;
 	width: 100%;
-  	margin: 0;
-  	box-sizing: border-box;
-  	padding-right: 60px;
-}
-
-.index_page3 {
-	text-align: right;
-	min-height: 100%
 	height: 100%;
-	width: 100%;
-  	margin: 0;
-  	box-sizing: border-box;
-  	padding-right: 60px;
+	font-family: Pompiere-Regular;
+	font-size: 20px;
+	line-height: 1.1
+	color: rgba(0,0,0,1);
+	list-style-type: none;
 }
 
-
-/*.img-circle {
-	padding: 30px;
+.img-circle_1 {
     border-radius: 50%;
-   	float: left;
-    width: 100px;
-    height: auto;
-} */
+    margin: 20px;
+    width: 10%;
+    vertical-align: middle;
+    float: left;
+
+} 
 

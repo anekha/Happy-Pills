@@ -9,18 +9,24 @@
 	z-index: 350px;
 }
 
+.container {
+	margin-right: 10px;
+	margin: 0 auto;
+}
+
 .navbar-default{ 
 	position: fixed;
 	background-color: rgba(44, 206, 190, 0.64);
 	border: 1px #cfd8dc;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.4)
 }
 
 .fixed {
 	position: fixed; 
-	top: 0; 
-	height: 70px; 
-	z-index: 1;
+	top: 50px; 
+	min-height: 10px;
+	height: 20px;
+	z-index: 350px;
+	background-color: rgba(44, 206, 190, 0);
 }
 
 .nav .navbar-nav {
@@ -40,13 +46,26 @@
 	float: right;
 }
 
+.img-circle {
+	display: block;
+	margin: auto;
+	padding: 10px;
+    border-radius: 50%;
+    width: 35%;
+    height: auto;
+}
+
 .rectangle {
 	width:500px;
 	height:250px;
 	margin: auto;
     padding: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     border-color: 1px #000;
+}
+
+h1, p {
+	text-align: center;
 }
 
 body{
