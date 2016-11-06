@@ -64,8 +64,9 @@
     border-color: 1px #000;
 }
 
-h1, p {
+.writing {
 	text-align: center;
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
 body{
