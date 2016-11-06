@@ -11,7 +11,9 @@ body {
 }
 
 .contact-us {
-	padding-bottom: 10rem;
+	margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 section {display: block;}
