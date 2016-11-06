@@ -1,0 +1,127 @@
+@font-face {
+	font-family: 'Special Elite';
+	src: url("fonts/SpecialElite.ttf");
+	font-family: 'Pompiere-Regular';
+  	src: url("fonts/Pompiere-Regular.ttf");
+}
+
+
+.header_one {
+	font-size: 100px;
+	font-family: 'Special Elite';
+	height: 175px;
+	background-color: rgba(44, 206, 190, 0.89);
+	width: 100%;
+	display: flex;
+	align-items: center; //* In order to vertically align to the center*/
+	text-align: left;
+  	padding-left: 20px; //* add some space from the text to the left */
+}
+
+.header_one.sticky {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	font-size: 100px
+	font-family: 'Special Elite';
+	height: 175px;
+	background-color: rgba(44, 206, 190, 0.89);
+	width: 100%;
+	display: flex;
+	align-items: center; 
+  	padding-left: 20px;
+}
+
+#sticky-phantom {
+	font-size: 100px;
+	font-family: 'Special Elite';
+	height: 175px;
+	background-color: rgba(44, 206, 190, 0.89);
+	width: 100%;
+	display: flex;
+	align-items: center; //* In order to vertically align to the center*/
+	text-align: left;
+  	padding-left: 20px; //* add some space from the text to the left */
+  	visibility: hidden;
+}
+
+
+body {
+	position: relative;
+}
+
+img {
+	width: 100%;
+	background-size: cover;
+}
+
+.btn-default {
+	margin: 15px;
+}
+
+.navbar {
+	min-height: 10px;
+	height: 65px;
+	z-index: 350px;
+}
+
+.container {
+	margin-right: 10px;
+}
+
+.navbar-default{ 
+	margin-bottom: 0px;
+	background-color: rgba(44, 206, 190, 0.64);
+	border: 1px #cfd8dc;
+}
+
+.fixed {
+	position: fixed; 
+	top: 50px; 
+	min-height: 10px;
+	height: 20px;
+	z-index: 350px;
+	background-color: rgba(44, 206, 190, 0);
+}
+
+.nav .navbar-nav {
+	padding: 0px 10px 0px 10px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  font-size: 30px;
+  font-family: 'Pompiere-Regular';
+  margin: 10px;
+
+}
+
+
+@media (min-width: 768px) {
+.navbar-nav {
+	color: green;
+	float: right;
+}
+
+img {
+	height: 100%;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.index_page1 {
+  	padding-right: 30px;
+  	text-align: center;
+	min-height: 100%
+	width: 100%;
+  	margin: 0;
+  	overflow: auto;
+  	display: inline-flex;
+}
+
+
+
