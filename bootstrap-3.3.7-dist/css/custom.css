@@ -114,7 +114,7 @@ html {
 }
 
 .index_page1 {
-  	padding-right: 60px;
+  	padding-right: 30px;
   	text-align: center;
 	min-height: 100%
 	width: 100%;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .content_one {
-	padding-right: 0;
+	padding-right: 30px;
 	width: 100%;
 	height: 100%;
 	font-family: Pompiere-Regular;
@@ -137,14 +137,22 @@ h1 {
 	line-height: 1.1
 	color: rgba(0,0,0,1);
 	list-style-type: none;
+	margin: 150px;
 }
 
 .img-circle_1 {
     border-radius: 50%;
     margin: 20px;
-    width: 10%;
+    width: 30%;
     vertical-align: middle;
     float: left;
+    margin: 150px;
 
+} 
+
+.footer_social {
+	width: 100%;
+	height: 500px;
+	background-color: rgba(88, 92, 126, 0.82);
 } 
 
