@@ -50,8 +50,8 @@
 	display: block;
 	margin: auto;
 	padding: 10px;
-    border-radius: 50%;
-    width: 35%;
+    border-radius: 25%;
+    width: 15%;
     height: auto;
 }
 
@@ -60,8 +60,13 @@
 	height:250px;
 	margin: auto;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(244, 250, 248, 1);
     border-color: 1px #000;
+     -moz-box-shadow:    3px 3px 5px 6px #ccc;
+     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+     box-shadow:        3px 3px 3px 3px #ccc;
+     border-radius: 25px;
+}
 }
 
 h1, p {
