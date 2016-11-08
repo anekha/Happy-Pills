@@ -14,21 +14,6 @@ div {
 	display: block;
 }
 
-input {
-	width: 100%;
-	padding: 
-		padding-top: 500px
-		padding-right: 500px
-		padding-bottom: 300px
-		padding-left: 100px;
-	float: center;
-	font-family: 'Pompiere-Regular';
-  	src: url("fonts/Pompiere-Regular.ttf");
-}
-
-input 
-	{width: 200px;
-}
 
 .content_one {
 	padding-right: 30px;
@@ -52,16 +37,9 @@ input
  }
 
 
-.submit {background-color: #ffcc00;
-}
-
-.btn-default {
-	background-color: #ffcc00;
 }
 .btn btn-default {
 	width: auto;
 	background-color: #ed207b;
 }
-
-
 
