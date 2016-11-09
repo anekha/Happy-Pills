@@ -154,8 +154,6 @@ position it in the middle of its parent wrapper*/
 }
 
 
-
-
 ul.rig {
 	list-style: none;
 	font-size: 0px;
@@ -214,7 +212,9 @@ img {
 	height: auto;
 }
 
-
+h3, p {
+	text-align: left;
+}
  
 @media (max-width: 480px) {
 	ul.grid-nav li {
