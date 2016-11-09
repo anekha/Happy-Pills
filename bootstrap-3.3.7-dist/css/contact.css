@@ -6,12 +6,13 @@
 }
 
 body{
-    background-image:url('./sky.jpeg');
-    background-attachment:fixed;
-    background-size: cover;
+    font-family: 'Pompiere-Regular';
+  	src: url("fonts/Pompiere-Regular.ttf");
 }
 
-
+h1  {
+	font-size: 70px;
+}
 
 .header_one {
 	font-size: 100px;
@@ -120,6 +121,13 @@ html {
     margin: 0;
 }
 
+form {
+    margin: auto;
+    width: 100%
+    padding: 
+    	padding-left: 20px;
+}
+
 
 .img_1 {
     border-radius: 20%;
@@ -140,6 +148,8 @@ html {
 }
 
 
+
+
 .form-group {
 width: 25%;
 padding: 
@@ -156,6 +166,26 @@ font-family: 'Pompiere-Regular';
 	background-color: #fdd512
 }
 
+#main_content input {
+	border:
+	border-top-color: rgb(131, 175, 155);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(131, 175, 155);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(131, 175, 155);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(131, 175, 155);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;;
+}
 
 .footer_social {
 	width: 100%;
