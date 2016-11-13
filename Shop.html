@@ -51,9 +51,10 @@
         <li><a href="Shop.html"> SHOP </a></li>
         <li><a href="contact form.html"> CONTACT </a></li>
         <ul class="nav navbar-nav navbar-right">
-        <button type="button" class="btn btn-default" aria-label="left Align">
+        <button type="button" class="btn btn-default cart-btn cart-btn-neg" aria-label="left Align" id="10">
   <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-  <span class="badge">0</span>
+  <span class="btn-caption"></span>
+  <span class="badge cart-badge active">0</span>
         </button>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -90,9 +91,19 @@
       <li>
     <div class="center">
       <div class="input-group">
-          <span class="input-group-btn"><button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]"><span class="glyphicon glyphicon-minus"></span></button></span>
-          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
-          <span class="input-group-btn"><button type="button" class="btn btn-default btn-number add" data-type="plus" data-field="quant[1]"><span class="glyphicon glyphicon-plus"></span></button></span>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number quantity" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
     </div>
     </li>
@@ -108,18 +119,28 @@
         <h3>A bottle of Trust</h3>
         <p>A symbol of your faith</p>
       </li>
-       <div class="pricing">
+             <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>
@@ -132,18 +153,28 @@
         <h3>A bottle of Love</h3>
         <p>All you could ever ask for</p>
       </li>
-       <div class="pricing">
+             <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>
@@ -160,18 +191,28 @@
         <h3>A bottle of Appreciation</h3>
         <p>Show someone how much they mean to you</p>
       </li>
-       <div class="pricing">
+             <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>
@@ -185,18 +226,28 @@
         <h3>A bottle of Courage</h3>
         <p>For that boost of confidence</p>
       </li>
-       <div class="pricing">
+             <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>
@@ -209,18 +260,28 @@
         <h3>A bottle of Surprise</h3>
         <p>Something to bring to a party</p>
       </li>
-       <div class="pricing">
+             <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>
@@ -237,18 +298,28 @@
         <h3>A bottle of Relaxation</h3>
         <p>For the relief of stress and anxiety</p>
     </li>
-     <div class="pricing">
+           <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>
@@ -261,18 +332,28 @@
       <h3>A bottle of Adventure</h3>
       <p>A treat for that extra adrenaline</p>
     </li>
-    <div class="pricing">
+          <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>
@@ -286,18 +367,28 @@
         <h3>A bottle of Joy</h3>
         <p>A simple but essential gift</p>
       </li>
-       <div class="pricing">
+             <div class="pricing">
      <li>
-      £xx.xx
+      <h4>£xx.xx</h4>
       </li>
       <li>
+    <div class="center">
       <div class="input-group">
-      <div class="btn-group" role="group" aria-label="...">
-        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-minus-sign" aria-hidden="true" style="margin-right: 5px"></span></button>
-        <input type="text" class="form-control" placeholder="0" aria-describedby="basic-addon1" style="width: 40px; top: 15px; padding: 15px;">
-        <button type="button" class="btn btn-default add"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true" style="margin-left: 5px;"></span></button>
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn-neg" disabled="disabled" data-type="minus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-minus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" style="top: 15px">
+          <span class="input-group-btn">
+          <button type="button" class="btn btn-default btn-number cart-btn" data-type="plus" data-field="quant[1]" id="10">
+          <span class="glyphicon glyphicon-plus"></span>
+          <span class="item-caption"></span>
+          </button>
+          </span>
       </div>
-      </div>
+    </div>
     </li>
     </div>
     </div>

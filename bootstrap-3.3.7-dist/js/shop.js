@@ -115,14 +115,32 @@ $( document ).ready(function() {
     });
 });
 
-var badge = 0;
+$(document).on("click", ".cart-btn", function(e) {
+      e.preventDefault();
 
-$('.add').click(function (){
-  badge ++;
-  $('.badge').html(badge).css('display', 'block');
-}); 
+      // Get the current values of the button, caption, badge, and count
+      var btnCaption = $(document).find(".btn-caption")       
+      var badge = $(document).find(".cart-badge")
+      var count = parseInt(badge.text());
+
+      // Update the buttons caption text (if desired), and increment the counter
+     
+      badge.text(count + 1);
+  });
 
 
+$(document).on("click", ".cart-btn-neg", function(e) {
+      e.preventDefault();
+
+      // Get the current values of the button, caption, badge, and count
+      var btnCaption = $(document).find(".btn-caption")       
+      var badge = $(document).find(".cart-badge")
+      var count = parseInt(badge.text());
+
+      // Update the buttons caption text (if desired), and increment the counter
+    
+      badge.text(count - 1);
+  });
 
 
 
