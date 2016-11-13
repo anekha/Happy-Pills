@@ -1,6 +1,7 @@
 @font-face {
 	font-family:'Pompiere-Regular';
     src: url("./Pompiere-Regular.ttf");
+  
 }
 
 .navbar {
@@ -79,3 +80,7 @@ body{
     background-size: cover;
 }
 
+.writing {
+	font-family: Pompiere-Regular;
+	font-size: 17px;
+}
