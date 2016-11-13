@@ -67,7 +67,7 @@ img {
 	margin-right: 10px;
 }
 
-.navbar-default{ 
+.navbar-default { 
 	margin-bottom: 0px;
 	background-color: rgba(44, 206, 190, 0.64);
 	border: 1px #cfd8dc;
@@ -98,21 +98,7 @@ img {
 
 @media (min-width: 768px) {
 .navbar-nav {
-	color: green;
 	float: right; 
-}
-
-	.content_reason {
-	font-family: Pompiere-Regular;
-	font-size: 20px;
-	line-height: 1.1;
-	list-style-type: none;
-	padding: 20px;
-	width: 100%;
-	float: right;
-	text-align: center;
-	margin-top: 150px;
-
 }
 
 }
@@ -129,7 +115,7 @@ img {
 	width: 100%;
 	float: right;
 	text-align: center;
-	margin-top: 225px;
+	margin-top: 200px;
 
 }
 
