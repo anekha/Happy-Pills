@@ -34,10 +34,3 @@ $(document).ready(function() {
   });
 });
 
-
-var iframe = document.getElementsByTagName('iframe')[0];
-var player = $f( iframe );
-
- player.addEvent('ready', function() {
-     player.api('setVolume', 20); 
- });

@@ -11,6 +11,7 @@
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap-3.3.7-dist/css/custom.css" rel="stylesheet">
     <link href="bootstrap-3.3.7-dist/css/custom_shop.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,6 +25,7 @@
     <div class="header_one"> Happy Pills </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/custom.js"> </script>
     <script src="bootstrap-3.3.7-dist/js/shop.js"> </script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -32,7 +34,7 @@
 <nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+    <div class="navbar-header dropup">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -41,13 +43,13 @@
       </button>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
+   <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="Index.html"> HOME <span class="sr-only">(current)</span></a></li>
         <li><a href="About us.html"> ABOUT </a></li>
         <li><a href="Shop.html"> SHOP </a></li>
-        <li><a href="#"> CONTACT </a></li>
+        <li><a href="contact form.html"> CONTACT </a></li>
         <ul class="nav navbar-nav navbar-right">
         <button type="button" class="btn btn-default" aria-label="left Align">
   <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
@@ -66,61 +68,116 @@
 
 
 <!-- Now the content for the shop -->
-<div class="shop_content">
 
-<ul class="rig columns-3">
-  <li>
-    <img src="photos/euphoria.png" />
-    <h3>A bottle of Euphoria</h3>
-    <p>The essence of elation</p>
-    <div class="btn-group" role="group" aria-label="...">
-      <button type="button" class="btn btn-default">-</button>
-      
-      <button type="button" class="btn btn-default">+</button>
+<div class="container">
+
+<div class="shop">
+
+<div class="row">
+ 
+  <div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/euphoria.png"/>
+        <h3>A bottle of Euphoria</h3>
+        <p>The essence of elation</p>
+      </li>
     </div>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_two.jpg" />
-    <h3>Fruit Pastilles</h3>
-    <p>Yummy fruit pastilles</p>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_three.jpg" />
-    <h3>Soft Eating Liquoritce</h3>
-    <p>delicious liquorice</p>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_four.jpg" />
-    <h3>Starburst</h3>
-    <p>Old time favourite Starburst</p>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_five.jpg" />
-    <h3>Skittles</h3>
-    <p>Colorful skittles</p>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_six.jpg" />
-    <h3>Dollymix</h3>
-    <p>The real deal dollymix</p>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_seven.jpg" />
-    <h3>Flumps</h3>
-    <p>Twirly flumps</p>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_eight.jpg" />
-    <h3>Dipdap</h3>
-    <p>Stick and lick dippap</p>
-  </li>
-  <li>
-    <img src="photos/shop_items/sweet_nine.jpg" />
-    <h3>Starburst</h3>
-    <p>Can't have too many starburst</p>
-  </li>
-</ul>
+  </div>
 
+  <div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/trust.png" />
+        <h3>A bottle of trust</h3>
+        <p>A symbol of what share</p>
+      </li>
+    </div>
+  </div>
+
+<div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/love.png" />
+        <h3>A bottle of love</h3>
+        <p>All you could ever ask for</p>
+      </li>
+    </div>
+</div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/appreciation.png" />
+        <h3>A bottle of appreciation</h3>
+        <p>Show someone how much they mean to you</p>
+      </li>
+    </div>
+  </div>
+  
+
+  <div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/courage.png" />
+        <h3>A bottle of courage</h3>
+        <p>A confidence boost</p>
+      </li>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/surprise.png" />
+        <h3>A bottle of surprise</h3>
+        <p>Something to bring to a party</p>
+      </li>
+    </div>
+</div>
+
+</div>
+
+<div class="row">
+
+  <div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/relaxation.png" />
+        <h3>A bottle of relaxation</h3>
+        <p>Serene feelings floating inside</p>
+    </li>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="item_background">
+     <li>
+      <img src="photos/shop_items/adventure.png" />
+      <h3>A bottle of adventure</h3>
+      <p>A treat before you embark together</p>
+    </li>
+    </div>
+  </div>
+
+  
+  <div class="col-md-4">
+    <div class="item_background">
+      <li>
+        <img src="photos/shop_items/joy.png" />
+        <h3>A bottle of joy</h3>
+        <p>A simple but beautiful gift</p>
+      </li>
+    </div>
+  </div>
+
+</div>
+
+</div>
 </div>
 
 </body>

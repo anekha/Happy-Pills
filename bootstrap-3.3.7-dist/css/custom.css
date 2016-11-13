@@ -97,12 +97,14 @@ img {
 
 
 @media (min-width: 768px) {
-.navbar-nav {
-	float: right; 
+	.navbar-nav {
+		float: right; 
+	}
+	.content_reason {
+		margin-top: 50px;
+	}
+	
 }
-
-}
-
 
 
 .content_reason {
