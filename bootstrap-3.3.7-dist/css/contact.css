@@ -73,9 +73,6 @@ img {
 	z-index: 350px;
 }
 
-.container {
-	margin-right: 10px;
-}
 
 .navbar-default{ 
 	margin-bottom: 0px;
@@ -121,14 +118,6 @@ html {
     margin: 0;
 }
 
-form {
-    margin: auto;
-    width: 100%
-    padding: 
-    	padding-left: 20px;
-}
-
-
 .img_1 {
     border-radius: 20%;
     margin: 20px;
@@ -147,17 +136,18 @@ form {
     float: right;
 }
 
+.p2 {
+	font-size: 20px;
+}
 
-
+#main_content {
+	float: left;
+	position: relative;
+	left: 40%;
+}
 
 .form-group {
-width: 25%;
-padding: 
-padding-top: 200px
-padding-right: 200px
-padding-bottom: 200px
-padding-left: 200px;
-float: center;
+width: 150%;
 font-family: 'Pompiere-Regular';
   src: url("fonts/Pompiere-Regular.ttf");
 }
@@ -232,4 +222,3 @@ h1 {
 	width: 50px;
 	height: auto;
 }
-
