@@ -39,8 +39,6 @@ position it in the middle of its parent wrapper*/
 
 
 
-
-
 .item_background {
 	display: inline-block;
 	width: 325px;
@@ -88,10 +86,10 @@ width: 150px;
   
 }
 
-#badge {
+.badge {
 	
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 4px;
+  padding-right: 4px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
@@ -99,9 +97,13 @@ width: 150px;
 }
 
 .btn .badge {
-	position: absolute;
+	position: relative;
+	background-color: rgba(44, 206, 190, 0.89);
 
+}
 
+.btn-default {
+	top: 0px;
 }
 
 
