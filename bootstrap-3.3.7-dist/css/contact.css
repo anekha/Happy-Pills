@@ -26,8 +26,43 @@ img {
 	background-size: cover;
 }
 
+.navbar {
+	min-height: 10px;
+	height: 65px;
+	z-index: 350px;
+}
+
+.container {
+	margin-right: 10px;
+}
+
+.navbar-default{ 
+	margin-bottom: 0px;
+	background-color: rgba(44, 206, 190, 0.64);
+	border: 1px #cfd8dc;
+}
+
+.fixed {
+	position: fixed; 
+	top: 50px; 
+	min-height: 10px;
+	height: 20px;
+	z-index: 350px;
+	background-color: rgba(44, 206, 190, 0);
+}
+
+.nav .navbar-nav {
+	padding: 0px 10px 0px 10px;
+}
 
 
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  font-size: 30px;
+  font-family: 'Pompiere-Regular';
+  margin: 10px;
+
+}
 
 @media (min-width: 768px) {
 .navbar-nav {
@@ -43,6 +78,14 @@ html {
     height: 100%;
     margin: 0;
 }
+
+form {
+    margin: auto;
+    width: 100%
+    padding: 
+    	padding-left: 20px;
+}
+
 
 .img_1 {
     border-radius: 20%;
@@ -62,18 +105,17 @@ html {
     float: right;
 }
 
-.p2 {
-	font-size: 20px;
-}
 
-#main_content {
-	float: left;
-	position: relative;
-	left: 40%;
-}
+
 
 .form-group {
-width: 150%;
+width: 25%;
+padding: 
+padding-top: 200px
+padding-right: 200px
+padding-bottom: 200px
+padding-left: 200px;
+float: center;
 font-family: 'Pompiere-Regular';
   src: url("fonts/Pompiere-Regular.ttf");
 }
@@ -148,3 +190,4 @@ h1 {
 	width: 50px;
 	height: auto;
 }
+

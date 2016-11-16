@@ -33,7 +33,7 @@ h1, p {
 }
 
 body{
-    background-image:url('photos/skyballon.jpeg');
+    background-image:url('./sky.jpeg');
     background-attachment:fixed;
     background-size: cover;
 }
