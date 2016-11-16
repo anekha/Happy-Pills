@@ -55,7 +55,7 @@ img {
 
 .btn-default {
 	margin: 15px;
-	margin-top: 0px;
+
 }
 
 .navbar {
@@ -97,21 +97,17 @@ img {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 1180px) {
 
-	.navbar-nav {
+	.header_one {
+		font-size: 40px;
+	}
+
+}
+
+.navbar-nav {
 		float: right; 
 	}
-
-	.content_reason {
-		margin-top: 50px;
-	}
-	
-	header {
-		font-size: 50px;
-
-	}
-}
 
 
 .content_reason {
