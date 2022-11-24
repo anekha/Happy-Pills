@@ -5,19 +5,15 @@
 * [Setup](#setup)
 
 ## General info
-This project is web page for .
+This project was a collaboration for the Web Development course with Code First Girls. We wanted to set up a website playing with the concept of that feelings can be bought online
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* HTML
+* CSS
+* JavaScript
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this website project, install it locally and run
 
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
+
