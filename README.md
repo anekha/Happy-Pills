@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General info
-This project was a collaboration for the Web Development course with Code First Girls. We wanted to set up a website playing with the concept of that feelings can be bought online
+This project was a collaboration for the Web Development course we completed with Code First Girls. We wanted to set up a website playing with the concept of that feelings can be bought online
 	
 ## Technologies
 Project is created with:
